@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form">
+        <h1>ADD BOOK</h1>
+        <form id="my_form">
+
+            <div class="input-block">
+                <label for="title">Title: </label>
+                <input type="text" name="title" id="title" autocomplete="off" required>
+            </div>
+
+            <div class="input-block">
+                <label for="author">Author: </label>
+                <input type="text" name="author" id="author" autocomplete="off" required>
+            </div>
+
+            <div class="input-block">
+                <label for="pages">Number of pages: </label>
+                <input type="number" name="pages" id="pages" autocomplete="off" required>
+            </div>
+
+            <div id="readStatus"> <p> Have you read the book?</p>
+            <input type="checkbox" name="checkbox" id="checkbox" autocomplete="off">
+            </div>
+            <div id="submit-btn"><button type="submit" id="add-book">Add book</button></div>
+        </form>
+    </div>
+
+    <div id="display">
+        <h1>LIBRARY</h1>
+        <table id="book-list">
+            <thead id="book-labels">
+                <tr>
+                    <td>TITLE</td>
+                    <td>AUTHOR</td>
+                    <td>PAGES</td>
+                    <td>STATUS</td>
+                    <td>DELETE</td>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <!-- Books to be added with JS -->
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>
