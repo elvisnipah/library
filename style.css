@@ -65,11 +65,6 @@ td, thead {
     padding: 10px 20px;
 }
 
-.check-read, .check-not-read {
-    font-family: sans-serif;
-    color: white;
-}
-    
 .check-read {
     background-color: green;
 }
@@ -85,7 +80,10 @@ button {
     letter-spacing: 1.5px;
     border: 1px solid white;
     border-radius: 5px;
-    background-color: rgb(249, 167, 219);
+    background-color: rgb(253, 0, 0);
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
 }
 
 #add-book {
@@ -93,6 +91,5 @@ button {
     height: 50px;
     font-weight: bold;
     font-size: 1.2rem;
-    color: white;
     background-color: rgb(4, 95, 95);
 }
