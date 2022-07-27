@@ -72,7 +72,7 @@ function validateForm(event) {
         }
       form.reset();
     }
-
+}
     
 
 function listenClicks () {
