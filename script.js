@@ -72,7 +72,8 @@ function validateForm(event) {
         }
       form.reset();
     }
-}
+
+    
 
 function listenClicks () {
     document.addEventListener("click", (event) => {
